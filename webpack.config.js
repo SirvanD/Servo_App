@@ -1,5 +1,4 @@
-// import path from "path";
-// import "dotenv/config";
+
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
 
@@ -13,13 +12,13 @@ const config = {
     clean: true,
   },
   devtool: "inline-source-map",
-  // devServer: {
-  //   contentBase: path.resolve(__dirname, "./dist"),
-  //   port: 5001,
-  //   open: true,
-  //   hot: true,
-  //   // watchFiles: true,
-  // },
+  devServer: {
+    contentBase: path.resolve(__dirname, "./dist"),
+    port: 5001,
+    open: true,
+    hot: true,
+    // watchFiles: true,
+  },
   mode: "production",
 
   plugins: [
@@ -30,7 +29,7 @@ const config = {
     }),
   ],
 
-  // resolve: [".html", ".js"],
+  resolve: [".html", ".js"],
   module: {
     rules: [
       {
@@ -44,21 +43,3 @@ const config = {
 };
 
 module.exports = config;
-
-// {
-//   module.exports = {
-//     entry: "./public/client.js",
-//     output: {
-//       filename: "client.js",
-//       path: path.resolve(__dirname, "dist"),
-//     },
-//   };
-//   plugins: [
-//     new webpack.DefinePlugin({
-//       // ... any other global vars
-//       // API_KEY: JSON.stringify('1.2.3'),
-//       // pull in your individual .env vars
-//       GOOGLE_KEY: JSON.stringify(process.env.MAPS_API_KEY),
-//     }),
-//   ];
-// }
