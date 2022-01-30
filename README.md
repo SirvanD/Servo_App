@@ -1,6 +1,6 @@
 # SERVO APP 
 ## Find your local Petrol stations <a href="https://servo-app-heroku.herokuapp.com/"> Demo </a>
-### Fullstack, RESTful App Built on : JavaScript, Node.JS, Express, PostgreSQL, HTML, CSS by Bootstrap5 and Deployed on Heroku
+### Fullstack, RESTful App Built by : JavaScript, Node.JS, Express, PostgreSQL, HTML, CSS by Bootstrap5 and Deployed on Heroku
 #### Google Maps API(Restricted to only the app URL and 10 request per day per user) 
 #### Publicly accessible Australian Petrol station dataset for 2012 downloaded from <a href="https://data.gov.au/"> Data.GOV.AU </a> , also can be found in .data/PetrolStasions.CSV
 #### A group project, contributors can be found in this Git's right panel
