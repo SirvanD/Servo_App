@@ -1,7 +1,7 @@
 # SERVO APP
 
 
-- Dataset downloaded from <a href="" Data.gov.au"> Data.gov.au</a> https://data.gov.au/error?errorCode=404&recordType=Dataset&recordId=%22ds-ga-cc365600-2959-597d-e044-00144fdd4fa6%22 , also can be found in .data/PetrolStasions.CSV
+- Dataset downloaded from <a href="https://data.gov.au/"> Data.GOV.AU </a> , also can be found in .data/PetrolStasions.CSV
 
 ## seeding the database
 
